@@ -1,0 +1,21 @@
+#gameCanvas {
+    border: 2px solid black; 
+    display: block;
+    margin: auto;
+    background-color: yellowgreen;
+}
+.restart{
+    margin:  20px auto;
+    padding: 10px,20px;
+    font-size: 18px;
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: block;
+
+}
+.restart.hover{
+    background-color: #45a049;
+}
