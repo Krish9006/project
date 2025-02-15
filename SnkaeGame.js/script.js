@@ -4,8 +4,8 @@ const canvasSize = 400;
 const box = 20;
 let directions = "right";
 let score = 0;
-let snake = [];
-let food = {};
+let snake = [{x:200,y:200}];
+let food = generateFood();
 function resetGame() {
     score = 0;
     directions = "right";
