@@ -41,16 +41,16 @@ button {
     padding: 10px 15px;
     font-size: 15px;
     color: white;
-    background-color: #007bff;
+    background-color: green;
     border: none;
     cursor: pointer;
     border-radius: 4px;
     transition: background-color 0.3s, transform 0.2s;
-    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+    box-shadow: 0 4px 8px rgba(15, 79, 147, 0.3);
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color:rgb(135, 8, 8);
     transform: scale(1.05);
 }
 
